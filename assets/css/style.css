@@ -76,3 +76,17 @@ a:hover {
   width: 100%;
   z-index: 999;
 }
+
+
+/* contact.html */
+
+.address-section{
+  padding-top: 2rem;
+}
+.info{
+  padding-bottom: 2rem;
+}
+.info a{
+  text-decoration: none;
+}
+/* contact.html */
