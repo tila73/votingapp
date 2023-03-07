@@ -75,3 +75,17 @@ a:hover {
   top: 0 !important;
   z-index: 1000 !important;
 }
+
+
+/* contact.html */
+
+.address-section{
+  padding-top: 2rem;
+}
+.info{
+  padding-bottom: 2rem;
+}
+.info a{
+  text-decoration: none;
+}
+/* contact.html */
