@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- style.css -->
-    <link href="./assets/css/style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voting Application</title>
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -13,15 +13,21 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
     <!-- Bootstrap Icons -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
     />
-    <title>News Detail</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
 
+  <!-- body -->
   <body>
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center fixed-top">
@@ -62,13 +68,15 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="voting.html">Voting</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -103,9 +111,7 @@
                 Pages
               </a>
               <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="event.html">Event</a>
-                </li>
+                <li><a class="dropdown-item" href="event.html">Event</a></li>
                 <li><a class="dropdown-item" href="blog.html">Blog</a></li>
                 <li>
                   <a class="dropdown-item" href="gallery.html">Gallery</a>
@@ -131,173 +137,212 @@
     </nav>
     <!-- ======= End Navbar ======= -->
 
-    <!-- main -->
-    <section>
-      <div class="container">
-        <div class="row py-2 px-4">
-          <div class="col-2 breadcrumb-title-heading text-secondary">
-            <h3>News Details</h3>
+    <div class="pt-4">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb d-flex justify-content-center">
+          <li class="breadcrumb-item">
+            <a href="index.html" class="text-decoration-none">Home</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">About</li>
+        </ol>
+      </nav>
+      <li class="list-group-item text-center">
+        <h1 class="py-2">About</h1>
+      </li>
+    </div>
+    <!-- first section -->
+    <section class="container">
+      <div class="mb-5">
+        <div class="row">
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center"
+          >
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+            />
           </div>
-          <div class="col-10 d-flex align-items-center justify-content-end">
-            <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-              <ol class="breadcrumb m-0">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="news.html">News</a></li>
-                <li
-                  class="breadcrumb-item text-secondary active"
-                  aria-current="page"
-                >
-                  News Detail
-                </li>
-              </ol>
-            </nav>
+          <div class="col-lg-8 col-md-6 col-sm-12">
+            <h3 class="card-title text-center">Title</h3>
+            <p class="card-text p-3 text-justify">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.loremI checked in for the night at Out O The Way motel.
+              What a bad choice that was. First I took a shower and a spider
+              crawled out of the drain. Next, the towel rack fell down when I
+              reached for the one small bath towel. This allowed the towel to
+              fall halfway into the toilet. I tried to watch a movie, but the
+              remote control was sticky and wouldn’t stop scrolling through the
+              channels. I gave up for the night and crawled into bed. I
+              stretched out my leg and felt something furry by my foot. Filled
+              with fear, I reached down and to my surprise, I pulled out a
+              raccoon skin pair of underwear. After my initial relief that it
+              wasn’t alive, the image of a fat, ugly businessman wearing raccoon
+              skin briefs filled my brain. I jumped out of the bed, threw my
+              toothbrush into my bag, and sprinted towards my car.
+            </p>
           </div>
         </div>
-        <!-- breadcrumb section end -->
+      </div>
+    </section>
+    <!-- second section -->
+    <section class="container">
+      <div class="py-5 text-center m-auto mb-5 bg-light text-black">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="">
+              <div class="card-body">
+                <h4 class="card-title">23456</h4>
+                <p class="card-text">Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="">
+              <div class="card-body">
+                <h4 class="card-title">23456</h4>
+                <p class="card-text">Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="">
+              <div class="card-body">
+                <h4 class="card-title">23456</h4>
+                <p class="card-text">Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="">
+              <div class="card-body">
+                <h4 class="card-title">23456</h4>
+                <p class="card-text">Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testinomials description-->
+    <section class="container bg-light">
+      <div class="mb-3 m-auto mb-5">
+        <div class="card-body">
+          <h2 class="card-title text-center p-4 me-5">Testomonials</h2>
+        </div>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="m-auto" style="width: 18rem">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                  class="card-img-top rounded-circle"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h3 class="card-title text-center">Name</h3>
+                </div>
+              </div>
+              <p class="card-text text-center p-3 container">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.Next, the towel rack fell down when I reached for the one
+                small bath towel. This allowed the towel to fall halfway into
+                the toilet. I tried to watch a movie, but the remote control was
+                sticky and wouldn’t stop scrolling through the channels. I gave
+                up for the night and crawled into bed. I stretched out my leg
+                and felt something furry by my foot. Filled with fear, I reached
+                down and to my surprise, I pulled out a raccoon skin pair of
+                underwear. After my initial relief that it wasn’t alive, the
+                image of a fat, ugly businessman wearing raccoon skin briefs
+                filled my brain. I jumped out of the bed,
+              </p>
+            </div>
+            <div class="carousel-item">
+              <div class="m-auto" style="width: 18rem">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                  class="card-img-top rounded-circle"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h3 class="card-title text-center">Name</h3>
+                </div>
+              </div>
+              <p class="card-text text-center p-3">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.Next, the towel rack fell down when I reached for the one
+                small bath towel. This allowed the towel to fall halfway into
+                the toilet. I tried to watch a movie, but the remote control was
+                sticky and wouldn’t stop scrolling through the channels. I gave
+                up for the night and crawled into bed. I stretched out my leg
+                and felt something furry by my foot. Filled with fear, I reached
+                down and to my surprise, I pulled out a raccoon skin pair of
+                underwear. After my initial relief that it wasn’t alive, the
+                image of a fat, ugly businessman wearing raccoon skin briefs
+                filled my brain. I jumped out of the bed,
+              </p>
+            </div>
+            <div class="carousel-item">
+              <div class="m-auto" style="width: 18rem">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                  class="card-img-top rounded-circle"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h3 class="card-title text-center">Name</h3>
+                </div>
+              </div>
+              <p class="card-text text-center p-3">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.Next, the towel rack fell down when I reached for the one
+                small bath towel. This allowed the towel to fall halfway into
+                the toilet. I tried to watch a movie, but the remote control was
+                sticky and wouldn’t stop scrolling through the channels. I gave
+                up for the night and crawled into bed. I stretched out my leg
+                and felt something furry by my foot. Filled with fear, I reached
+                down and to my surprise, I pulled out a raccoon skin pair of
+                underwear. After my initial relief that it wasn’t alive, the
+                image of a fat, ugly businessman wearing raccoon skin briefs
+                filled my brain. I jumped out of the bed,
+              </p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
     </section>
 
-    <div class="container shadow mb-3">
-      <div class="content-wrapper px-4 py-3">
-        <div class="text-center py-2 px-3 w-100 m-auto">
-          <div class="news_title">
-            <h2>News Title Lorem ipsum dolor sit amet.</h2>
-          </div>
-          <div
-            class="social_share d-flex justify-content-between align-items-center"
-          >
-            <a href="" class="text-decoration-none text-justify">
-              <h6>Author Name</h6>
-              <h6>Date:56/56/5555</h6>
-            </a>
-            <div class="py-2 px-3">
-              <a href="" class="text-decoration-none me-2"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
-              <a href="" class="text-decoration-none me-2"
-                ><i class="fa-brands fa-twitter"></i
-              ></a>
-              <a href="" class="text-decoration-none me-2"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
-              <a href="" class="text-decoration-none"
-                ><i class="fa-brands fa-twitter"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- liveEvent section start -->
-
-        <div class="w-100 text-justify p-3 m-auto">
-          <div>
-            <img
-              src="./uploads/download.jpeg"
-              alt=""
-              class="d-block w-100"
-              style="max-height: 500px"
-            />
-          </div>
-
-          <p class="pt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-            voluptatum? Lorem ipsum dolor, sit amet consectetur adipisicing
-            elit. Autem officia minus quae impedit repudiandae quibusdam illum
-            esse tempore doloremque, laborum qui. Suscipit soluta ab corporis
-            itaque! Cum quibusdam magnam architecto. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Nostrum dolorem pariatur ipsum
-            temporibus eos excepturi veritatis praesentium omnis. Doloribus, id!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-            asperiores at et cum laborum aliquid fuga nihil enim a vero, eum
-            dolorum, in voluptates ea! Quisquam, dolorum. Laboriosam, libero ut.
-          </p>
-
-          <div class="more_news mt-5">
-            <h3>Read Also:</h3>
-            <ul class="px-5">
-              <li>
-                <a href="#" class="text-decoration-none">
-                  <h6>this is news heading</h6>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none">
-                  <h6>this is news heading</h6>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none">
-                  <h6>this is news heading</h6>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row p-3">
-            <hr size="5" class="bg-dark" />
-            <h3 class="text-center">Additional News</h3>
-            <hr size="3" class="bg-dark" />
-
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="card" style="width: 100%">
-                <img
-                  src="./uploads/download.jpeg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body px-1">
-                  <a href="#" class="text-decoration-none">
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="card" style="width: 100%">
-                <img
-                  src="./uploads/download.jpeg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body px-1">
-                  <a href="#" class="text-decoration-none">
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="card" style="width: 100%">
-                <img
-                  src="./uploads/download.jpeg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body px-1">
-                  <a href="#" class="text-decoration-none">
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- main ends -->
-
-    <!-- footer starts -->
+    <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted">
       <!-- Section: Social media -->
       <section
@@ -415,24 +460,19 @@
         class="text-center p-4"
         style="background-color: rgba(0, 0, 0, 0.05)"
       >
-        Â© 2021 Copyright:
+        © 2021 Copyright:
         <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
           >Voting Application</a
         >
       </div>
       <!-- Copyright -->
     </footer>
-    <!-- Footer -->
+    <!-- End Footer -->
 
-    <!-- Bootstrap JS -->
+    <!-- js -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-    <!-- font awesome -->
-    <script
-      src="https://kit.fontawesome.com/3e7c3e7282.js"
       crossorigin="anonymous"
     ></script>
   </body>
