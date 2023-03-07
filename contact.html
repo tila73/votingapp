@@ -51,7 +51,7 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="voting.html">Voting</a>
@@ -90,12 +90,12 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link  active" aria-current="page" href="contact.html">Contact</a>
           </li>
         </ul>
         <div class="d-flex align-items-center gap-2">
-          <button class="btn btn-primary">Login</button>
-          <button class="btn btn-primary">Register</button>
+          <a href="login.html" class="btn btn-primary text-light">Login</a>
+          <a href="register.html" class="btn btn-primary text-light">Register</a> 
         </div>
       </div>
     </div>
@@ -105,7 +105,7 @@
   <!-- breadcrumb section -->
   <div class="container py-2" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb" style="float: right;">
-      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
       <li class="breadcrumb-item active" aria-current="page">Contact</li>
     </ol>
   </div>
@@ -116,7 +116,7 @@
     <h1 class="p-2">Get in touch</h1>
     <div class="row">
       <div class="col-lg-7">
-        <form class="row g-3 shadow mt-1 mb-1 pb-2" style="border-radius: 15px;">
+        <form class="row g-3 shadow mt-1 mb-1 p-3" style="border-radius: 15px;">
           <div class="col-md-12">
             <label class="form-label">Name</label>
             <input type="text" class="form-control">
