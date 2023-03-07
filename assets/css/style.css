@@ -80,13 +80,16 @@ a:hover {
 
 /* contact.html */
 
-.address-section{
+.address-section {
   padding-top: 2rem;
 }
-.info{
+
+.info {
   padding-bottom: 2rem;
 }
-.info a{
+
+.info a {
   text-decoration: none;
+  color:black;
 }
 /* contact.html */
