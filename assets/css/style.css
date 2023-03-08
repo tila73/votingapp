@@ -178,3 +178,25 @@ font-size:medium;  }
 /* event details  social link hover effect  */
 
 /* Event,Event_detail, news and news_detail start*/
+
+
+/* image size css start*/
+.carousel-item img {
+   object-fit: fill;
+   width: 100%;
+   height: 400px;
+}
+
+
+.small-card img{
+  object-fit: fill;
+  width: 100%;
+  height: 200px;
+}
+
+.large-card img{
+  object-fit: fill;
+  width: 100%;
+  height: 400px;
+}
+/* image size css end*/
