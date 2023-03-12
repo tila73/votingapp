@@ -1,0 +1,94 @@
+a {
+  color: #1977cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3291e6;
+  text-decoration: none;
+}
+
+#header {
+  background: #fff;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  z-index: 996;
+  position: relative;
+}
+
+#header.header-scrolled {
+  top: -40px;
+}
+
+#header .contact-info a {
+  line-height: 1;
+  color: #444444;
+  transition: 0.3s;
+}
+
+#header .contact-info a:hover {
+  color: #1977cc;
+}
+
+#header .contact-info i {
+  color: #1977cc;
+  padding-right: 4px;
+  margin-left: 15px;
+  line-height: 0;
+}
+
+#header .contact-info i:first-child {
+  margin-left: 0;
+}
+
+#header .social-links a {
+  color: #437099;
+  padding-left: 15px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#header .social-links a:hover {
+  color: #1977cc;
+}
+
+#header .social-links a:first-child {
+  border-left: 0;
+}
+
+#header .social-links a {
+  color: #437099;
+  padding-left: 15px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#header .social-links a:hover {
+  color: #1977cc;
+}
+
+.navbar.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+
+
+
+/* contact.html */
+
+.address-section{
+  padding-top: 2rem;
+}
+.info{
+  padding-bottom: 2rem;
+}
+.info a{
+  text-decoration: none;
+}
+/* contact.html */
